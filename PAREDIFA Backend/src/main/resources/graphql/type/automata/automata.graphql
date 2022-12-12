@@ -1,0 +1,7 @@
+type Automata {
+    id: String
+    regex: String
+    alphabet: [ String ]
+    stateList: [ State ]
+    transitionList: [ Transition ]
+}

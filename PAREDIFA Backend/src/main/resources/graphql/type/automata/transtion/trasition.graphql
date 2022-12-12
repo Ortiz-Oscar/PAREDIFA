@@ -1,0 +1,7 @@
+type Transition {
+    id: String!
+    sourceStateRef: StateRef!
+    targetStateRef: StateRef!
+    symbolList: [ String ]!
+    coordinate: Coordinate!
+}

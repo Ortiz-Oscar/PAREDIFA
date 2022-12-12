@@ -1,0 +1,5 @@
+type StateRef {
+    id: String!
+    x: Float!
+    y: Float!
+}

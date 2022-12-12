@@ -1,0 +1,7 @@
+type State {
+    id:String!
+    name:String!
+    coordinate:Coordinate!
+    start: Boolean!
+    end:Boolean!
+}
