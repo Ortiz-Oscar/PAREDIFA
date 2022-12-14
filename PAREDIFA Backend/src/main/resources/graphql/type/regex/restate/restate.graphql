@@ -1,0 +1,6 @@
+type REState {
+    name: String
+    label: String
+    isInitial: Boolean
+    isFinal: Boolean
+}

@@ -1,0 +1,5 @@
+type RETransition {
+    sourceId: Int
+    targetId: Int
+    symbol: String
+}
