@@ -1,4 +1,4 @@
-type Regex {
+type REAutomata {
     nodes: [ REState ]
     edges: [ RETransition ]
     alphabet: [ String ]

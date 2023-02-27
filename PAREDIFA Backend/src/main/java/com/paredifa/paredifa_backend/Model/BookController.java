@@ -1,7 +1,7 @@
-package com.paredifa.paredifa_backend.resolver;
+package com.paredifa.paredifa_backend.Model;
 
-import com.paredifa.paredifa_backend.resolver.automata.Book;
-import com.paredifa.paredifa_backend.resolver.regex.Author;
+import com.paredifa.paredifa_backend.Model.automata.Automata;
+import com.paredifa.paredifa_backend.Model.regex.REAutomata;
 import org.springframework.graphql.data.method.annotation.Argument;
 import org.springframework.graphql.data.method.annotation.QueryMapping;
 import org.springframework.graphql.data.method.annotation.SchemaMapping;
@@ -10,12 +10,10 @@ import org.springframework.stereotype.Controller;
 @Controller
 public class BookController {
     @QueryMapping
-    public Book bookById(@Argument String id) {
-        return Book.getById(id);
-    }
+    public Automata bookById(@Argument String id) { return null; }
 
     @SchemaMapping
-    public Author author(Book book) {
-        return Author.getById(book.getAuthorId());
+    public REAutomata author(Automata book) {
+        return null;
     }
 }
