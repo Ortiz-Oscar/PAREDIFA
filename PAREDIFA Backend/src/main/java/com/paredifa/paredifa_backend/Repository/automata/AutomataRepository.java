@@ -5,6 +5,4 @@ import org.springframework.data.mongodb.repository.MongoRepository;
 
 import java.util.UUID;
 
-public interface AutomataRepository extends MongoRepository<Automata, UUID> {
-
-}
+public interface AutomataRepository extends MongoRepository<Automata, UUID> {}

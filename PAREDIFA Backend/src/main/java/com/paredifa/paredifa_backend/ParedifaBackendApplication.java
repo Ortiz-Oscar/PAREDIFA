@@ -21,7 +21,6 @@ public class ParedifaBackendApplication {
     public static void main(String[] args) {
         SpringApplication.run(ParedifaBackendApplication.class, args);
     }
-
     @Bean
     CommandLineRunner runner(AutomataRepository repository) {
         State state1 = new State(
